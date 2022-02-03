@@ -2,14 +2,12 @@
 elasticsearch:
   hosts:
     Ubuntu1:
-`     ansible_host: 127.0.0.1
+      ansible_host: 10.0.2.15
       ansible_connection: ssh
-      ansible_port: 2223
       ansible_user: vagrant
 kibana:
   hosts:
-    Ubuntu2:
-      ansible_host: 127.0.0.1
+    Ubuntu1:
+      ansible_host: 10.0.2.15
       ansible_connection: ssh
-      ansible_port: 2223
       ansible_user: vagrant 
