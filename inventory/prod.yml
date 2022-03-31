@@ -1,15 +1,10 @@
 ---
 elasticsearch:
   hosts:
-    Ubuntu1:
-      ansible_host: 127.0.0.l
-      ansible_port: 22
-      ansible_connection: ssh
-      ansible_user: vagrant
-      ansible_password: vagrant
+    ubuntu:
+      ansible_connection: docker
+
 kibana:
-  hosts:
-    Ubuntu1:
-      ansible_host: 10.0.2.15
-      ansible_connection: ssh
-      ansible_user: vagrant 
+   hosts:
+    kibana01:
+      ansible_connection: docker
