@@ -1,7 +1,6 @@
 # Домашнее задание к занятию "08.02 Работа с Playbook"
 
-Playbook выполняет  установку Java Development Kit на все хосты (в данном случае контейнеры ubuntu и ubuntu2),   
-устанавливает elsticsearch  в контейнер ubuntu и kibana в контейнер ubuntu2.
+Playbook выполняет  установку Java Development Kit на все хосты (в данном случае контейнеры ubuntu и ubuntu2), устанавливает elasticsearch  в контейнер ubuntu и kibana в контейнер ubuntu2.
 
 Описание playbook
 * name: Install Java
