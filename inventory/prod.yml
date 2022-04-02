@@ -6,5 +6,5 @@ elasticsearch:
 
 kibana:
    hosts:
-    kibana01:
+    ubuntu2:
       ansible_connection: docker
