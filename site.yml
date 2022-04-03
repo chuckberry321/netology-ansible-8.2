@@ -40,7 +40,7 @@
         mode: 0644
       tags: java
 - name: Install Elasticsearch
-  hosts: ubuntu
+  hosts: elasticsearch
   tasks:
     - name: Upload tar.gz Elasticsearch from remote URL
       get_url:
@@ -79,7 +79,7 @@
         mode: 0644
       tags: elastic
 - name: Install Kibana
-  hosts: ubuntu2
+  hosts: kibana
   tasks:
     - name: Upload tar.gz Kibana from remote URL
       get_url:
